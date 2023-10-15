@@ -1,0 +1,219 @@
+@font-face {
+    font-family: "Mine";
+    font-style: normal;
+    font-weight: 900;
+    src: url("/src/fonts/minecraft.ttf")
+}
+@font-face {
+    font-family: "Museo";
+    font-style: normal;
+    font-weight: 500;
+    src: url("/src/fonts/MuseoSansCyrl500.otf")
+}
+@font-face {
+    font-family: "Museo";
+    font-style: normal;
+    font-weight: 900;
+    src: url("/src/fonts/MuseoSansCyrl900.otf")
+}
+@font-face {
+    font-family: "Museo";
+    font-style: normal;
+    font-weight: 300;
+    src: url("/src/fonts/MuseoSansCyrl300.otf")
+}
+
+.header{
+    font-size: 200%;
+    color:#FFFFFF;
+    font-style:oblique;
+    width: 10;
+    height:1000;
+    font-family: "Mine", normal;
+    margin-bottom: 40px;
+    background:#9944FF;
+}
+.header1{
+    font-size: 200%;
+    font-weight: 900;
+    color:#FFFFFF;
+    font-style:normal;
+    width: 10;
+    height:1000;
+    font-family: "Museo", normal;
+    margin-bottom: 40px;
+    background:#9944FF;
+}
+.title {
+    font-family: "Museo";
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 100px;
+    margin-left:25px;
+    font-size: 20pt;
+}
+.col {
+    white-space: nowrap;
+}
+.colb {
+    text-shadow:#FFFFFF;
+    white-space: normal;	
+	display: inline-block;
+	width: 48%;
+	vertical-align: top;
+}
+.col .colb:first-child {
+	margin-right: 4%;
+}
+.photo_placer {
+    margin-bottom: 50px;
+    margin-left: 100px; 
+    width: 300px; 
+    height: 300px;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color:#DEDEFF;
+    border-style: dashed;
+    background: #F9F9FF;
+    text-align: center;
+}
+.inside_placer {
+    font-family:"Museo";
+    font-weight: 500;
+    font-style:normal;
+    margin-top: 150px;
+    margin-bottom: 10px;
+}
+.button_photo {
+    transition: 0,5s linear;
+    font-family: "Museo";
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color:#999999;
+    border-style: dashed;
+    background: #F9F9FF;
+    text-align: center;
+}
+.button_photo:hover {
+    font-family: "Museo";
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color:#999999;
+    border-style: dashed;
+    background: #E0E0E0;
+    text-align: center;
+}
+.button_exit {
+    transition: 0,5s linear;
+    margin-top:43px;
+    margin-left: 450px;
+    font-family: "Museo";
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color:#999999;
+    border-style: dashed;
+    background: #F9F9FF;
+}
+.checkbox_gender_unchecked {
+    border-radius:50%;
+    border-width:2px;
+}
+.button_exit:hover {
+    margin-top:43px;
+    margin-left: 450px;
+    font-family: "Museo";
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color:#999999;
+    border-style: dashed;
+    background: #E0E0E0;
+}
+.button_continue {
+    transition: 0,5s linear;
+    font-family: "Museo";
+    margin-top:20px;
+    margin-left: 100px;
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color:#999999;
+    border-style: dashed;
+    background: #F9F9FF;
+}
+.button_continue:hover {
+    font-family: "Museo";
+    margin-top:20px;
+    margin-left: 100px;
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color:#999999;
+    border-style: dashed;
+    background: #E0E0E0;
+}
+.registerisation {
+    font-family: "Museo";
+    margin-left: 100px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border-color:#9944FF;
+}.registerisation_about {
+    font-family: "Museo";
+    margin-left: 100px;
+    border-width: 2px;
+    margin-bottom: 100px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border-color:#9944FF;
+}
+.how_it_looks {
+    font-family: "Museo";
+    margin-bottom: 50px;
+    margin-top: 50px; 
+    width: 500px; 
+    height: 300px;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color:#EEEEFF;
+    border-style: solid;
+    background: #F9F9FF;
+    text-align: center;
+}
+.hil_title {
+    margin-top:25px;
+    font-family: "Museo";
+}
+.hil_name {
+    font-family: "Museo";
+    font-weight: 900;
+    font-size: 18px;
+    font-style:inherit;
+    margin-bottom: 25px;
+    text-align: left;
+}
+.hil_about {
+    font-family: Museo;
+    font-weight: 300;
+    font-size: 12px;
+    text-align: left;
+}
+.rights {
+    font-family: "Museo";
+    align-items: center;
+    margin-top:50px;
+    background-color: #BB77FF;
+    height: 50px;
+    text-align:center;
+    vertical-align: middle;
+}
