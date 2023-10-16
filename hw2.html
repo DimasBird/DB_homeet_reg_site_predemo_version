@@ -10,8 +10,8 @@
     <header class="header1">
         <div class="col">
             <div class="colb">
-                <section>Homeet</section>
-                <section>HSE</section>
+                <section class="Homeetlogo">Homeet</section>
+                <section class="Homeetlogo">HSE</section>
             </div>
             <div class="colb">
                 <button class="button_exit">Выйти из аккаунта</button>
@@ -26,20 +26,42 @@
             <section>
                 <form>
                     <section>
-                        <section>
-                            <label class="registerisation">Кто ты:</label>
+                        <section class="labels">
+                            <input type="radio" name="status" class="radio_check" value="1" id="student_or_free"><label class="registerisation_status" checked>    Студент/Выпускник</label>
+                            <input type="radio" name="status" class="radio_check" value="2" id="worker"><label class="registerisation_status">    Сотрудник</label>
                         </section>
-                        <section>
-                            <select name="status_select" class="registerisation" placeholder="Кто ты">
-                                <option value="Student">Студент</option>
-                                <option value="Free">Выпускник</option>
-                                <option value="Worker">Сотрудник</option>
-                        </select>
-                    </section>
                     </section>
                     <section>
+
+                        <div class="registerisation_course">
+                            Курс:    
+                            <div class="form_radio_btn">
+                                <input id="radio-1" type="radio" name="course" value="1" checked>
+                                <label for="radio-1">1</label>
+                            </div>
+                            <div class="form_radio_btn">
+                                <input id="radio-2" type="radio" name="course" value="1">
+                                <label for="radio-2">2</label>
+                            </div>
+                            <div class="form_radio_btn">
+                                <input id="radio-3" type="radio" name="course" value="1">
+                                <label for="radio-3">3</label>
+                            </div>
+                            <div class="form_radio_btn">
+                                <input id="radio-4" type="radio" name="course" value="1">
+                                <label for="radio-4">4</label>
+                            </div>
+                            <div class="form_radio_btn">
+                                <input id="radio-5" type="radio" name="course" value="1">
+                                <label for="radio-5">5</label>
+                            </div>
+                            <div class="form_radio_btn">
+                                <input id="radio-6" type="radio" name="course" value="1">
+                                <label for="radio-6">6</label>
+                            </div>
+                        </div>
                         <section>
-                            <label class="registerisation">Ступень образования:</label>
+                            <label class="registerisation_label">Ступень образования:</label>
                         </section>
                         <section>
                             <select name="status_education" class="registerisation" placeholder="Ступень образования">
@@ -53,7 +75,7 @@
                     </section>
                     <section>
                         <section>
-                            <label class="registerisation">Факультет:</label>
+                            <label class="registerisation_label">Факультет:</label>
                         </section>
                         <section>
                             <select name="status_education" class="registerisation">
@@ -64,27 +86,27 @@
                     </section>
                     <section>
                         <section>
-                            <label class="registerisation">Образовательная программа:</label>
+                            <label class="registerisation_label">Образовательная программа:</label>
                         </section>
                         <section>
                             <input name="education_programm" class="registerisation" placeholder="ОП">
+                            <button class="button_find">
+                                Найти
+                            </button>
                         </section>
                     </section>
                     <section>
                         <section>
-                            <label class="registerisation">Работа:</label>
+                            <label class="registerisation_label">Работа:</label>
                         </section>
                         <section>
                             <input name="workplace" class="registerisation" placeholder="Работа">
                         </section>
                     </section>
                 </form>
-                <section>
-                    <button class="button_continue">
-                        Отправить
-                    </button>
-                </section>
+                
             </section>
+           
         </div>
         <div class="colb">
             <section class="hil_title">Как это будет выглядеть:</section>
@@ -99,6 +121,11 @@
             </table></section>
         </div>
     </div>
+    <section>
+        <button class="button_continue">
+            Отправить
+        </button>
+    </section>
     <section class="rights">
         <tr>
             <th class="rights">

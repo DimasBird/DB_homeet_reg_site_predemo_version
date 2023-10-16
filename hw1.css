@@ -22,11 +22,17 @@
     font-weight: 300;
     src: url("/src/fonts/MuseoSansCyrl300.otf")
 }
-
-.header{
+.Homeetlogo {
+    margin-left:10px;
+    font-style:normal;
+    font-family: "Museo", normal;
     font-size: 200%;
+}
+.header{
+    border-size:5px;
+    border-style:solid;
+    border-color:#6f33b9;
     color:#FFFFFF;
-    font-style:oblique;
     width: 10;
     height:1000;
     font-family: "Mine", normal;
@@ -34,11 +40,16 @@
     background:#9944FF;
 }
 .header1{
-    font-size: 200%;
+    border-size:125px;
+    border-style:solid;
+    border-color:#6f33b9;
+    margin-top:-10px;
+    margin-left:-10px;
+    font-size: 150%;
     font-weight: 900;
     color:#FFFFFF;
     font-style:normal;
-    width: 10;
+    width: 10000;
     height:1000;
     font-family: "Museo", normal;
     margin-bottom: 40px;
@@ -68,8 +79,8 @@
 .photo_placer {
     margin-bottom: 50px;
     margin-left: 100px; 
-    width: 300px; 
-    height: 300px;
+    width: 400px; 
+    height: 250px;
     border-radius: 10px;
     border-width: 5px;
     border-color:#DEDEFF;
@@ -81,43 +92,51 @@
     font-family:"Museo";
     font-weight: 500;
     font-style:normal;
-    margin-top: 150px;
+    margin-top: 100px;
     margin-bottom: 10px;
 }
 .button_photo {
-    transition: 0,5s linear;
+    color:#FFFFFF;
+    transition: 200ms;
     font-family: "Museo";
     width: 150px;
-    height: 50px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 10px;
     border-width: 2px;
-    border-color:#999999;
-    border-style: dashed;
-    background: #F9F9FF;
+    border-color:#9944FF;
+    border-style: solid;
+    background: #9944FF;
     text-align: center;
 }
 .button_photo:hover {
+    color:#F5F5F5;
+    transition: 200ms;
     font-family: "Museo";
-    width: 150px;
-    height: 50px;
+    width: 148px;
+    height: 38px;
+    margin-top: 11px;
+    margin-bottom: 11px;
     border-radius: 10px;
     border-width: 2px;
-    border-color:#999999;
-    border-style: dashed;
-    background: #E0E0E0;
+    border-color:#b37cf7;
+    border-style: solid;
+    background: #b37cf7;
     text-align: center;
 }
 .button_exit {
-    transition: 0,5s linear;
-    margin-top:43px;
+    transition: 200ms;
+    color:#850085;
+    margin-top:70px;
     margin-left: 450px;
     font-family: "Museo";
     width: 150px;
-    height: 25px;
+    height: 40px;
     border-radius: 5px;
-    border-width: 2px;
-    border-color:#999999;
-    border-style: dashed;
+    border-width: 1px;
+    border-color:#850085;
+    border-style: solid;
     background: #F9F9FF;
 }
 .checkbox_gender_unchecked {
@@ -125,53 +144,144 @@
     border-width:2px;
 }
 .button_exit:hover {
-    margin-top:43px;
+    color:#850085;
+    margin-top:74px;
     margin-left: 450px;
     font-family: "Museo";
     width: 150px;
-    height: 25px;
+    height: 38px;
     border-radius: 5px;
-    border-width: 2px;
-    border-color:#999999;
-    border-style: dashed;
-    background: #E0E0E0;
+    border-width: 1px;
+    border-color:#850085;
+    border-style: solid;
+    background: #C9C9EE;
 }
 .button_continue {
-    transition: 0,5s linear;
+    transition: 200ms;
+    color:#850085;
     font-family: "Museo";
-    margin-top:20px;
-    margin-left: 100px;
     width: 150px;
-    height: 25px;
+    height: 40px;
     border-radius: 5px;
-    border-width: 2px;
-    border-color:#999999;
-    border-style: dashed;
+    border-width: 1px;
+    border-color:#850085;
+    border-style: solid;
     background: #F9F9FF;
+    margin-top:20px;
+    margin-left: 1050px;
 }
 .button_continue:hover {
+    color:#850085;
     font-family: "Museo";
-    margin-top:20px;
-    margin-left: 100px;
-    width: 150px;
-    height: 25px;
+    width: 148px;
+    height: 40px;
     border-radius: 5px;
-    border-width: 2px;
-    border-color:#999999;
-    border-style: dashed;
-    background: #E0E0E0;
+    border-width: 1px;
+    border-color:#850085;
+    border-style: solid;
+    background: #C9C9EE;
+    margin-top:20px;
+    margin-left: 1045px;
+}
+.button_find {
+    text-align: center;
+    transition: 200ms;
+    color:#850085;
+    font-family: "Museo";
+    width: 60px;
+    height: 40px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color:#850085;
+    border-style: solid;
+    background: #F9F9FF;
+    margin-top:20px;
+    margin-left: 10px;
+}
+.button_find:hover {
+    text-align: center;
+    transition: 200ms;
+    color:#850085;
+    font-family: "Museo";
+    width: 58px;
+    height: 39px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color:#850085;
+    border-style: solid;
+    background: #c9c9c9;
+    margin-top:20px;
+    margin-bottom:2px;
+    margin-left: 11px;
 }
 .registerisation {
+    height:30px;
+    border-width:1px;
     font-family: "Museo";
-    margin-left: 100px;
+    margin-left: 150px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color:#F7F7F7;
+    border-color:#f2f2f2;
+}
+.registerisation_label {
+    height:30px;
+    border-width:1px;
+    font-family: "Museo";
+    margin-left: 150px;
+    margin-bottom: 15px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.registerisation1 {
+    border-width:1px;
+    font-family: "Museo";
+    margin-left: 150px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color:#F7F7F7;
+    border-color:#DDDDDD;
+}
+.labels {
+    border-width:1px;
+    font-family: "Museo";
+    margin-left: 150px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.registerisation_gender {
+    border-width:1px;
+    margin-right:25px;
+    font-family: "Museo";
     margin-bottom: 15px;
     margin-top: 5px;
     border-radius: 5px;
     border-color:#9944FF;
-}.registerisation_about {
+}
+.registerisation_status {
+    border-width:1px;
+    margin-right:25px;
+    font-family: "Museo";
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border-color:#9944FF;
+}
+.registerisation_status1 {
+    border-width:1px;
+    margin-left:150px;
+    font-family: "Museo";
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border-color:#9944FF;
+}
+.registerisation_about {
     font-family: "Museo";
     margin-left: 100px;
-    border-width: 2px;
+    border-width: 1px;
     margin-bottom: 100px;
     margin-top: 15px;
     border-radius: 5px;
@@ -179,7 +289,7 @@
 }
 .how_it_looks {
     font-family: "Museo";
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     margin-top: 50px; 
     width: 500px; 
     height: 300px;
@@ -191,7 +301,7 @@
     text-align: center;
 }
 .hil_title {
-    margin-top:25px;
+    margin-top:10px;
     font-family: "Museo";
 }
 .hil_name {
@@ -209,11 +319,57 @@
     text-align: left;
 }
 .rights {
-    font-family: "Museo";
-    align-items: center;
     margin-top:50px;
-    background-color: #BB77FF;
+    margin-left:-10px;
+    background-color: #9944FF;
     height: 50px;
     text-align:center;
     vertical-align: middle;
+}
+.rights_text {
+    vertical-align: center;
+    font-family: "Museo";
+    align-items: center;
+    margin-top:50px;
+    color:white;
+}
+.radio_check {
+    color:#6f33b9;
+    background-color:#6f33b9;
+}
+.form_radio_btn {
+	display: inline-block;
+	margin-right: 10px;
+}
+.form_radio_btn input[type=radio] {
+	display: none;
+}
+.form_radio_btn label {
+	display: inline-block;
+	cursor: pointer;
+	padding: 0px 15px;
+    line-height:30px;
+	border: 1px solid #999;
+	border-radius: 10px;
+	user-select: none;
+}
+.form_radio_btn input[type=radio]:checked + label {
+	background: #8520ff;
+    color: white;
+    font-family: "Museo";
+    font-weight: 500;
+    font-style: normal;
+}
+.form_radio_btn label:hover {
+	background-color: #fde6ff;
+    size-adjust:110%;
+}
+.registerisation_course {
+    height:30px;
+    border-width:1px;
+    font-family: "Museo";
+    margin-left: 150px;
+    margin-bottom: 25px;
+    margin-top: 50px;
+    border-radius: 5px;
 }

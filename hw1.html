@@ -10,8 +10,8 @@
     <header class="header1">
         <div class="col">
             <div class="colb">
-                <section>Homeet</section>
-                <section>HSE</section>
+                <section class="Homeetlogo">Homeet</section>
+                <section class="Homeetlogo">HSE</section>
             </div>
             <div class="colb">
                 <button class="button_exit">Выйти из аккаунта</button>
@@ -26,16 +26,17 @@
             <section>
                 <div class="photo_placer">
                     <section class="inside_placer">Вставьте сюда свою фотографию</section>
-                    <section><button class="button_photo">Посмотреть</button></section>
+                    <section><button class="button_photo">Загрузить</button></section>
                 </div>
             </section>
 
             <section>
                 <form>
-                    <section>
-                        <label class="registerisation">Мужской</label><input type="checkbox" name="IsMale" class="checkbox_gender_checked">
+                    <section class="labels">
+                        <input id="radio_gender1" type="radio" name="gender" class="radio_check" value="1" checked><label for="radio_gender1" class="registerisation_gender">Мужской</label>
                         
-                        <label class="registerisation">Женский</label><input type="checkbox" name="IsFemale" class="checkbox_gender_unchecked"></section>
+                        <input id="radio_gender2" type="radio" name="gender" class="radio_check"><label for="radio_gender2" class="registerisation_gender">Женский</label>
+                    </section>
                     <section>
                         <input type="text" name="First_Last_Name" placeholder="Имя и Фамилия" class="registerisation">
                     </section>
@@ -52,12 +53,7 @@
                         <input type="text" name="phone" placeholder="Телефон" class="registerisation">
                     </section>
                     <section>
-                        <textarea type="tex" name="about_myself" placeholder="О себе" cols="32" rows="7" class="registerisation"></textarea>
-                    </section>
-                    <section>
-                        <button class="button_continue">
-                            Продолжить
-                        </button>
+                        <textarea type="tex" name="about_myself" placeholder="О себе" cols="32" rows="7" class="registerisation1"></textarea>
                     </section>
                 </form>
             </section>
@@ -74,15 +70,19 @@
                     </th>
                 </tr>
             </table></section>
+            
         </div>
+        <section>
+            <button class="button_continue">
+                Продолжить
+            </button>
+        </section>
     </div>
-    <section class="rights">
-        <tr>
-            <th class="rights">
-                Все права защищены. Сайт является собственностью НИУ ВШЭ и не может использоваться 
+    <div class="rights">
+        <section class="rights_text">
+            Все права защищены. Сайт является собственностью НИУ ВШЭ и не может использоваться 
                 в коммерческих целях без разрешения правообладателя.
-            </th>
-        </tr>
-    </section>
+        </section>
+    </div>
 </body>
 </html>
