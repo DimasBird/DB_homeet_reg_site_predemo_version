@@ -10,8 +10,7 @@
     <header class="header1">
         <div class="col">
             <div class="colb">
-                <section class="Homeetlogo">Homeet</section>
-                <section class="Homeetlogo">HSE</section>
+                <img src="/src/img/homeet_logo.svg" class="Homeetlogo">
             </div>
             <div class="colb">
                 <button class="button_exit">Выйти из аккаунта</button>
@@ -23,15 +22,15 @@
     <div class="col">
         <div class="colb">
 
-            <section>
+            
                 <form>
-                    <section>
-                        <section class="labels">
-                            <input type="radio" name="status" class="radio_check" value="1" id="student_or_free"><label class="registerisation_status" checked>    Студент/Выпускник</label>
+                    
+                        <div class="labels">
+                            <input type="radio" name="status" class="radio_check" value="1" id="student_or_free" checked><label class="registerisation_status" checked>    Студент/Выпускник</label>
                             <input type="radio" name="status" class="radio_check" value="2" id="worker"><label class="registerisation_status">    Сотрудник</label>
-                        </section>
-                    </section>
-                    <section>
+                        </div>
+                    
+                    
 
                         <div class="registerisation_course">
                             Курс:    
@@ -72,8 +71,8 @@
                                 <option value="A">Аспирантура</option>
                             </select>
                         </section>
-                    </section>
-                    <section>
+                    
+                    
                         <section>
                             <label class="registerisation_label">Факультет:</label>
                         </section>
@@ -83,56 +82,59 @@
                                 <option value="FKN">ФКН</option>
                             </select>
                         </section>
-                    </section>
-                    <section>
-                        <section>
+                    
+                    
+                        
                             <label class="registerisation_label">Образовательная программа:</label>
-                        </section>
-                        <section>
+                        
+                        
                             <input name="education_programm" class="registerisation" placeholder="ОП">
                             <button class="button_find">
                                 Найти
                             </button>
-                        </section>
-                    </section>
-                    <section>
-                        <section>
-                            <label class="registerisation_label">Работа:</label>
-                        </section>
-                        <section>
-                            <input name="workplace" class="registerisation" placeholder="Работа">
-                        </section>
-                    </section>
+                        
+                    
+                    
+                        
+                            <div>
+                                <label class="registerisation_label">Работа:</label>
+                        
+                        
+                                <div>
+                                    <input name="workplace" class="registerisation" placeholder="Работа">
+                                </div>
+                            </div>
+                    
                 </form>
                 
-            </section>
+            
            
         </div>
         <div class="colb">
             <section class="hil_title">Как это будет выглядеть:</section>
-            <section class="how_it_looks"><table>
-                <tr><th width=200px><img src=image_src width=180px></th>
+            <section class="how_it_looks">
+                <div class="col1">
+                    <div class="colb1"><img id="blah" src="" width=150px class="hil_image"><section id="image_title" class="hil_about_img">Здесь будет фото</section></th></div>
 
-                    <th>
-                        <section class="hil_name">Место для имени</section>
-                        <section class="hil_about">О себе............</section>
-                    </th>
-                </tr>
-            </table></section>
+                        <div class="colb1">
+                            <div class="hil_name" id="output_name">Место для имени</div>
+                            <script src="/src/js/script_output1.js"></script>
+                            <div class="hil_about" id="output_name1">О себе</div>
+                        </div>
+                    
+                </div>
+            </section>
         </div>
     </div>
-    <section>
         <button class="button_continue">
             Отправить
         </button>
-    </section>
-    <section class="rights">
-        <tr>
-            <th class="rights">
-                Все права защищены. Сайт является собственностью НИУ ВШЭ и не может использоваться 
+
+    <div class="rights">
+        <section class="rights_text">
+            Все права защищены. Сайт является собственностью НИУ ВШЭ и не может использоваться 
                 в коммерческих целях без разрешения правообладателя.
-            </th>
-        </tr>
-    </section>
+        </section>
+    </div>
 </body>
 </html>
